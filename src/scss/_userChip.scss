@@ -1,0 +1,21 @@
+[data-component='UserChip'] {
+	max-width: 100%;
+	margin-top: 20px;
+
+
+	> span {
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+
+		.uri {
+			color: #999;
+		}
+	}
+}
+
+@keyframes UserChip-status-connecting {
+	50% {
+		opacity: 0;
+	}
+}
