@@ -12,6 +12,11 @@ body
   width: 100%;
 }
 
+video {
+  width: 200px;
+  height: 100px;
+}
+
 [data-component='App'] {
   position: relative;
   height: 100%;
